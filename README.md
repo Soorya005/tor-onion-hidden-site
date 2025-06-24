@@ -1,11 +1,11 @@
-# 🕶️ Hosting a Hidden Website on the Dark Web using Tor & XAMPP (Windows)
+# 🕶 Hosting a Hidden Website on the Dark Web using Tor & XAMPP (Windows)
 
-**By:** Soorya A P (Callsign: SunGod)  
+**By:** Soorya A P  
 **Role:** Cybersecurity Student & Ethical Hacking Enthusiast
 
 ---
 
-## 🔍 Introduction
+##  Introduction
 
 As someone studying cybersecurity and actively exploring ethical hacking, I’ve always been curious about how websites are hosted on the dark web — not from a *“what’s there”* angle, but more of a *“how does this technically work?”* curiosity.
 
@@ -13,7 +13,7 @@ So I decided to set up my own `.onion` website completely from scratch — hoste
 
 ---
 
-## 💡 What I Built
+##  What I Built
 
 The result is a clean, minimal, and private landing page that reflects who I am. Functionality wasn’t the focus — understanding the underlying infrastructure was.
 
@@ -27,7 +27,7 @@ The site uses a dark-themed CSS layout with glowing text and displays a simple h
 
 ---
 
-## ⚙️ Tools & Stack Used
+##  Tools & Stack Used
 
 - **XAMPP (Apache Server)** – Local web server
 - **Tor Expert Bundle** – Hidden service host
@@ -37,15 +37,15 @@ The site uses a dark-themed CSS layout with glowing text and displays a simple h
 
 ---
 
-## 🧪 Setup Process
+## Setup Process
 
-### 🔸 Step 1: Localhost Setup (XAMPP)
+### Step 1: Localhost Setup (XAMPP)
 - Installed XAMPP
 - Started Apache server
 - Placed `index.html` in `C:\xampp\htdocs`
 - Verified that `http://localhost` loads the page
 
-### 🔸 Step 2: Tor Configuration
+### Step 2: Tor Configuration
 - Downloaded the **Tor Expert Bundle**
 - Created a file named `torrc` inside the Tor folder with the following lines:
 
@@ -53,7 +53,7 @@ HiddenServiceDir E:\tor\Tor\hidden_service
 HiddenServicePort 80 127.0.0.1:80
 
 
-### 🔸 Step 3: Launching Tor Hidden Service
+###  Step 3: Launching Tor Hidden Service
 - Ran Tor with:
 tor.exe -f torrc
 - Tor generated a `.onion` address inside the `hidden_service` directory
@@ -61,7 +61,7 @@ tor.exe -f torrc
 
 ---
 
-## 🧱 Problems I Faced & What I Learned
+## Problems I Faced & What I Learned
 
 ### 1. Apache and Tor Colliding on Port Usage
 **Issue:** Apache and Tor had port binding issues which caused delays.  
@@ -87,14 +87,14 @@ tor.exe -f torrc
 
 ---
 
-## 🔐 Is It Public?
+##  Is It Public?
 
 Technically yes — anyone with the `.onion` link can access it via Tor Browser.  
 But practically no — the address is nearly impossible to guess, and Tor doesn’t index `.onion` sites. So it's effectively private unless shared.
 
 ---
 
-## 🧠 Key Takeaways
+##  Key Takeaways
 
 - How `.onion` services are hosted through Tor
 - Practical use of the `torrc` configuration file
@@ -104,16 +104,9 @@ But practically no — the address is nearly impossible to guess, and Tor doesn�
 
 ---
 
-## 🌱 Future Improvements
 
-- Add password-protected access
-- Build a backend (PHP or Flask)
-- Create a personal journal or log system
-- Turn it into a mini tool drop for private scripts
 
----
-
-## 👨‍💻 Author
+##  Author
 
 **Soorya A P**  
 Cybersecurity Student | Hacker in Training  
