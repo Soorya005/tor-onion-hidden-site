@@ -123,5 +123,6 @@ Callsign: `SunGod`
 
 > ⚠️ This project is for educational purposes only. I do not endorse or encourage the misuse of Tor or dark web infrastructure for illegal activity.
 
+![image](https://github.com/user-attachments/assets/6a145a37-68bd-477d-808a-6880b052f8d6)
 
 
