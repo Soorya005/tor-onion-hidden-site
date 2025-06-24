@@ -1,0 +1,2 @@
+HiddenServiceDir E:\tor\Tor\hidden_service
+HiddenServicePort 80 127.0.0.1:80
